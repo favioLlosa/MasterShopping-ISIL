@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">MasterShopping-ISIL</string>
+    <string name="profile">Profile photo</string>
+    <string name="my_orders">My orders</string>
+    <string name="sofia">Sofia</string>
+    <string name="my_payment_cards">My payment cards</string>
+    <string name="change_address">Change Address</string>
+    <string name="notifications">Notifications</string>
+    <string name="inbox">Inbox</string>
+    <string name="about_us">About us</string>
+    <string name="logout">Logout</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="gmail">sofia@gmail.com</string>
+    <string name="phone">987654321</string>
+    <string name="address">153/3, las palmeras</string>
+    <string name="share_promocodes">Share promocodes</string>
+    <string name="psw">12345</string>
+    <string name="checkout">Checkout</string>
+    <string name="title">Hot corn chikern</string>
+    <string name="descriptionFood">A delicious creamy corm soup made with sweet com vegetables chiken herbs and spices</string>
+    <string name="food">image food</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="_153_3_las_palmeras">153/3, las palmeras</string>
+    <string name="change">Change</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="add_card">+ Add card</string>
+    <string name="send_order">Send Order</string>
 </resources>
