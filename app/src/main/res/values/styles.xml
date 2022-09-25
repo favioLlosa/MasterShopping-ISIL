@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <style name="buttom_primary">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/btn_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingVertical">8dp</item>
+    </style>
 </resources>
