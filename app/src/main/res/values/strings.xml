@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">MasterShopping-ISIL</string>
+    <string name="sign_up">Sign up</string>
+    <string name="enter_the_password">Enter the Password</string>
+    <string name="enter_the_email">Enter the Gmail</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="log_in">Log in</string>
+    <string name="enter_the_gmail">Enter the gmail</string>
+    <string name="btn_sign_up">Sign up</string>
+    <string name="enter_the_name">Enter the name</string>
+    <string name="sign_up_with_facebook">Sign up with Facebook</string>
+    <string name="sign_up_with_google">Sign up with Google</string>
+    <string name="not_a_membert">Not a membert?</string>
+    <string name="join_now">Join now</string>
+    <string name="already_have_account">Already have an account</string>
 </resources>
