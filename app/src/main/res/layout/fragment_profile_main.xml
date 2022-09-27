@@ -16,28 +16,34 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <ImageView
-        android:id="@+id/imgProfile"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardImg"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_alignParentEnd="false"
-        android:layout_alignParentBottom="false"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="170dp"
-        android:adjustViewBounds="false"
-        android:contentDescription="@string/profile"
-        android:cropToPadding="false"
-        app:srcCompat="@mipmap/ic_profile_round"
-        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+        app:cardCornerRadius="80dp">
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:adjustViewBounds="false"
+            android:contentDescription="@string/profile"
+            android:cropToPadding="false"
+            app:srcCompat="@mipmap/ic_profile_round"
+            tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+    </androidx.cardview.widget.CardView>
 
     <Button
         android:id="@+id/btnEdit"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/imgProfile"
+        android:layout_below="@id/cardImg"
         android:layout_centerHorizontal="true"
         android:backgroundTint="#00FFFFFF"
+        android:onClick="editProfile"
         android:text="@string/edit_profile"
         android:textAllCaps="false"
         android:textColor="@color/pink"

@@ -24,5 +24,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         startActivity(new Intent(this, ButtonSignActivityGoogle.class));
     }
 
-
+    public void mainActivity(View v){
+        startActivity(new Intent(this, MainActivity.class));
+    }
 }

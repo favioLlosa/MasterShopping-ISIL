@@ -21,4 +21,9 @@
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">20sp</item>
     </style>
+
+    <style name="navigation_round">
+        <item name="android:background">@drawable/nav_round</item>
+        <item name="background">@drawable/nav_round</item>
+    </style>
 </resources>

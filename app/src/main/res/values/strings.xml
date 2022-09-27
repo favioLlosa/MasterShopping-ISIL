@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">MasterShopping-ISIL</string>
-<<<<<<< HEAD
     <string name="sign_up">Sign up</string>
     <string name="enter_the_password">Enter the Password</string>
     <string name="enter_the_email">Enter the Gmail</string>
@@ -14,7 +13,6 @@
     <string name="not_a_membert">Not a membert?</string>
     <string name="join_now">Join now</string>
     <string name="already_have_account">Already have an account</string>
-=======
     <string name="profile">Profile photo</string>
     <string name="my_orders">My orders</string>
     <string name="sofia">Sofia</string>
@@ -42,5 +40,4 @@
     <string name="payment_method">Payment Method</string>
     <string name="add_card">+ Add card</string>
     <string name="send_order">Send Order</string>
->>>>>>> 5321fe072d944f07241bbed56b73a8555abb4c07
 </resources>

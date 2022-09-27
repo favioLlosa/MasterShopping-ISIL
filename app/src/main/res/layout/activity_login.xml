@@ -76,6 +76,7 @@
         android:backgroundTint="@color/red"
         android:fontFamily="@font/aclonica"
 
+        android:onClick="mainActivity"
         android:shadowColor="#000000"
         android:shadowDy="10"
         android:text="@string/log_in"

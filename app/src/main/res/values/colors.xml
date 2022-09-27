@@ -15,4 +15,7 @@
     <color name="blackTransparent">#B2000000</color>
     <color name="color_blackblack">#000000</color>
     <color name="text_holder">#919191</color>
+
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_20">#33000000</color>
 </resources>
