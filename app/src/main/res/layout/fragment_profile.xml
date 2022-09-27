@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.ProfileFragment" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/sofia" />
+
+    <Button
+        android:id="@+id/btnOrders"
+        style="@style/buttom_options_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="openOrders"
+        android:text="@string/my_orders"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/btnPayment"
+        style="@style/buttom_options_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/my_payment_cards"
+        app:cornerRadius="80dp" />
+
+    <Button
+        android:id="@+id/btnAddress2"
+        style="@style/buttom_options_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/change_address"
+        app:cornerRadius="80dp" />
+
+    <Button
+        android:id="@+id/btnNotifications"
+        style="@style/buttom_options_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/notifications"
+        app:cornerRadius="80dp" />
+
+    <Button
+        android:id="@+id/btnInbox"
+        style="@style/buttom_options_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/inbox"
+        app:cornerRadius="80dp" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        style="@style/buttom_options_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/about_us"
+        app:cornerRadius="80dp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        style="@style/buttom_options_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/logout"
+        app:cornerRadius="80dp"
+        tools:ignore="TouchTargetSizeCheck" />
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.EditProfileFragment">
+
+    <Button
+        android:id="@+id/btnName"
+        style="@style/buttom_options_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/sofia"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        style="@style/buttom_options_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/gmail"
+        app:cornerRadius="80dp" />
+
+    <Button
+        android:id="@+id/btnPhone"
+        style="@style/buttom_options_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/phone"
+        app:cornerRadius="80dp" />
+
+    <Button
+        android:id="@+id/btnAddress"
+        style="@style/buttom_options_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/address"
+        app:cornerRadius="80dp" />
+
+    <Button
+        android:id="@+id/btnShare"
+        style="@style/buttom_options_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/share_promocodes"
+        app:cornerRadius="80dp"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/btnPsw"
+        style="@style/buttom_options_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPassword|textWebPassword"
+        android:text="@string/psw"
+        app:cornerRadius="80dp"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+</LinearLayout>
