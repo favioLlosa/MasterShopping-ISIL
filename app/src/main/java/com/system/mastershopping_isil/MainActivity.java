@@ -2,6 +2,7 @@ package com.system.mastershopping_isil;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.ColorDrawable;
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void toProfile(){
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.ly_main, new ProfileMainFragment())
+                .replace(R.id.ly_main2, new ProfileMainFragment())
                 .commit();
         defaultSettings();
     }
@@ -46,18 +47,18 @@ public class MainActivity extends AppCompatActivity {
 
     public void openOrders(View v){
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.ly_main, new OrderFragment())
+                .replace(R.id.ly_main2, new OrderFragment())
                 .commit();
     }
 
     public void checkout(View v){
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.ly_main, new CheckoutFragment())
+                .replace(R.id.ly_main2, new CheckoutFragment())
                 .commit();
     }
 
     public void initComponent(){
-        tab_layout = (TabLayout) findViewById(R.id.tab_layout);
+        tab_layout = (TabLayout) findViewById(R.id.tab_layout2);
 
         tab_layout.addTab(tab_layout.newTab().setIcon(R.drawable.ic_home), 0);
         tab_layout.addTab(tab_layout.newTab().setIcon(R.drawable.ic_favorite), 1);
@@ -78,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                         System.out.println("Home");
                         break;
                     case 1:
-                        System.out.println("Favoritos");
+                        Favorites();
                         break;
                     case 2:
                         System.out.println("Cart");
@@ -101,6 +102,9 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    public void Favorites(){
+        startActivity(new Intent(this, FavoritesActivity.class));
+    }
     public void changeColor(String primaryDark, String primary){
         getWindow().setStatusBarColor(Color.parseColor(primaryDark));
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor(primary)));

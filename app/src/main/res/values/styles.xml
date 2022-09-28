@@ -22,8 +22,48 @@
         <item name="android:textSize">20sp</item>
     </style>
 
+    <style name="barra">
+        <item name="android:drawableLeft">@drawable/ic_baseline_menu_24</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
     <style name="navigation_round">
         <item name="android:background">@drawable/nav_round</item>
         <item name="background">@drawable/nav_round</item>
+    </style>
+
+    <style name="search_Bar">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@color/overlay_dark_10</item>
+        <item name="android:ems">10</item>
+        <item name="android:importantForAutofill">no</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:textColor">@color/pink</item>
+        <item name="android:textSize">7sp</item>
+    </style>
+
+    <style name="nombre_cafe">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="parrafo">
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textColor">@color/color_blackblack</item>
+    </style>
+
+    <style name="estrella">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
     </style>
 </resources>
